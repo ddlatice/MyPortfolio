@@ -118,7 +118,7 @@ hr {
 }
 
 #detail {
-  margin-top: 10px;
+  margin-top: 14px;
   height: 1px;
   width: 100%;
   border-top: none;
@@ -137,11 +137,13 @@ hr {
   font-size: 25px;
 }
 
-.socials i {
+.socials a {
   margin: 0 5px 0 5px;
 }
+
 .socials i:hover {
   color: #318fb5;
+  cursor: pointer;
 }
 
 .greeting::before {
@@ -437,6 +439,23 @@ footer {
   width: 100%;
   font-size: 10px;
   text-align: center;
+}
+
+.email-address {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.email-address i {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
 @media screen and (max-width: 1200px) {
