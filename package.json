@@ -1,0 +1,28 @@
+{
+  "name": "portfolio_three",
+  "version": "1.0.0",
+  "description": "Dominique Duncan's Portfolio v1.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css:autoprefixer": "postcss -u autoprefixer -r dist/*.css",
+    "build:css": "npm run css:autoprefixer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddlatice/MyPortfolio.git"
+  },
+  "author": "Dominique L. Duncan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddlatice/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/ddlatice/MyPortfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.1"
+  },
+  "dependencies": {
+    "build": "^0.1.4"
+  }
+}
